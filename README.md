@@ -1,16 +1,46 @@
-# calculator_app
+# 🧮 Calculator App (Flutter)
 
-A new Flutter project.
+A simple calculator application built with **Flutter**, supporting basic arithmetic operations with a clean and responsive UI.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- ➕➖✖️➗ Basic arithmetic operations (Add, Subtract, Multiply, Divide)
+- 🔢 Number input with decimal support
+- ⌫ Backspace (delete last digit)
+- ♻️ Clear all input
+- 📐 Responsive button grid layout
+- 🧼 Clean and readable code structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🖼 Screens
+
+- Calculator Screen:
+  - Display area for input and result
+  - Number buttons (0–9)
+  - Operator buttons (+, −, ×, ÷)
+  - Backspace and Clear buttons
+
+---
+
+## 🛠 Tech Stack
+
+- **Flutter**
+- **Dart**
+- Material UI
+- Stateful Widgets
+- Custom reusable widgets
+
+---
+
+## 📂 Project Structure
+
+```text
+lib/
+├── main.dart
+├── screens/
+│   └── calculator_screen.dart
+├── widgets/
+│   └── calculator_button.dart
